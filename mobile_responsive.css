@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+.child4,
+.child5,
+.child6 {
+    text-align: center;
+}
+
+.child1,
+.child2,
+.child3 {
+    color: white;
+    background-color: black;
+}
+
+.child4 {
+    color: white;
+}
+
+.child6 .middle {
+    background-color: dodgerblue;
+}
+
+h5,
+.user-name,
+.email,
+.img-outer-div {
+    background-color: teal;
+}
+
+.img {
+    height: 21vh;
+    width: 13vw;
+    margin: auto;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+li {
+    list-style: none;
+}
+
+.list,
+.list ul {
+    background-color: black;
+}
+
+.middle {
+    font-weight: 500;
+    background-color: green;
+}
+
+/* @media (max-width:991.98px) { */
+@media (min-width: 0px) and (max-width:575.98px) {
+    .nav {  
+        display: flex;
+        justify-content: space-evenly !important;
+    }
+    .img {
+        height: 21vh;
+        width: 40vw;
+        margin: auto;
+    }
+    .list ul{
+        margin-bottom: 0px !important;
+    }
+    .child5, .child6{
+        margin-top: 10px !important;
+    }
+}
